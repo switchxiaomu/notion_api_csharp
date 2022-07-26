@@ -1,0 +1,7 @@
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\obj\Debug\notion_api_csharp.csproj.AssemblyReference.cache
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\obj\Debug\notion_api_csharp.csproj.CoreCompileInputs.cache
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\bin\Debug\notion_api_csharp.exe.config
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\bin\Debug\notion_api_csharp.exe
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\bin\Debug\notion_api_csharp.pdb
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\obj\Debug\notion_api_csharp.exe
+E:\notion_api_csharp\notion_api_csharp\notion_api_csharp\obj\Debug\notion_api_csharp.pdb
