@@ -1,4 +1,5 @@
 ﻿using notion_api_csharp.Databases;
+using notion_api_csharp.JsonParser;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,16 @@ namespace notion_api_csharp
         {
             string id = "e6ef6bd0ad4f4b288caef6a6992411b5";
             string type = "databases";
-            string token = "secret_hWfBfqtjf5KalIYQaZ6FmaS6jjlphm0viAMO2RQlTtx";
+            string token = "";
+
             DatabaseRetrieve databaseRetrieve = new DatabaseRetrieve(id, type, token);
-            databaseRetrieve.Get();
+            string databaseRetrieve_get_result =  databaseRetrieve.Get();
+
+            DatabasesJsonParser databasesJsonParser = new DatabasesJsonParser();
+
+            string databases_created_time = databasesJsonParser.Get_Database_created_time(databaseRetrieve_get_result);
+            //Console.WriteLine(databases_created_time);
+
             Console.ReadKey();
         }
     }

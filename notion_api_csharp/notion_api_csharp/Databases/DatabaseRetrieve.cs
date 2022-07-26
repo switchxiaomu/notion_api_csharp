@@ -35,7 +35,7 @@ namespace notion_api_csharp.Databases
             using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
             {
                 var result = streamReader.ReadToEnd();
-                Console.WriteLine(result);
+                //Console.WriteLine(result);
                 return result;
             }
         }
